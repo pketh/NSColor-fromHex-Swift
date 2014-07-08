@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9DDB10BD196C72E40057D2F5 /* NSColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+hex.swift"; sourceTree = "<group>"; };
+		9DDB10BD196C72E40057D2F5 /* NSColor+fromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+fromHex.swift"; sourceTree = "<group>"; };
 		9DDB10BF196C73300057D2F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9DDB10C0196C736E0057D2F5 /* usage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usage.png; sourceTree = "<group>"; };
+		9DDB10C1196C90A50057D2F5 /* usage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		9DDB10B6196C72D40057D2F5 = {
 			isa = PBXGroup;
 			children = (
-				9DDB10BD196C72E40057D2F5 /* NSColor+hex.swift */,
+				9DDB10BD196C72E40057D2F5 /* NSColor+fromHex.swift */,
 				9DDB10BF196C73300057D2F5 /* README.md */,
-				9DDB10C0196C736E0057D2F5 /* usage.png */,
+				9DDB10C1196C90A50057D2F5 /* usage.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -30,7 +30,7 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 			};
-			buildConfigurationList = 9DDB10BA196C72D40057D2F5 /* Build configuration list for PBXProject "NSColor+hex.swift" */;
+			buildConfigurationList = 9DDB10BA196C72D40057D2F5 /* Build configuration list for PBXProject "NSColor+fromHex.swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -61,7 +61,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DDB10BA196C72D40057D2F5 /* Build configuration list for PBXProject "NSColor+hex.swift" */ = {
+		9DDB10BA196C72D40057D2F5 /* Build configuration list for PBXProject "NSColor+fromHex.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DDB10BB196C72D40057D2F5 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NSColor+hex.swift.xcodeproj">
+      location = "self:NSColor+fromHex.swift.xcodeproj">
    </FileRef>
 </Workspace>
