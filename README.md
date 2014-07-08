@@ -1,10 +1,10 @@
-# NSColor+hex
+# NSColor+fromHex
 
 Easily create NSColor objects from hex colors in Swift
 
 ![oooh](usage.png)
 
-## sample usage
+## Sample usage
 ```swift
 var hexColor = "#259B9A"
 NSColor.fromHex(hexColor)
