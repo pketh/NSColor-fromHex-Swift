@@ -22,9 +22,9 @@ extension NSColor {
 
         func hexToCGFloat(color: String) -> CGFloat {
             var result: CUnsignedInt = 0
-            var scanner: NSScanner = NSScanner.scannerWithString(color)
+            let scanner: NSScanner = NSScanner(string: color)
             scanner.scanHexInt(&result)
-            var colorValue: CGFloat = CGFloat(result)
+            let colorValue: CGFloat = CGFloat(result)
             return colorValue / 255
         }
 
@@ -40,12 +40,12 @@ extension NSColor {
 
 extension String {
     subscript (i: Int) -> String {
-        return String(Array(self)[i])
+        return String(Array(arrayLiteral: self)[i])
     }
     subscript (r: Range<Int>) -> String {
-        var start = advance(startIndex, r.startIndex)
-            var end = advance(startIndex, r.endIndex)
-            return substringWithRange(Range(start: start, end: end))
+        let start = startIndex.advancedBy(r.startIndex)
+        let end = startIndex.advancedBy(r.endIndex)
+        return substringWithRange(Range(start: start, end: end))
     }
 }
 
